@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{F9220CCE-DE88-45A8-9E4F-8D9C897EA847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{1222A735-348A-4F3B-844A-2465EFEE32F4}"
+	ProjectSection(SolutionItems) = preProject
+		Akcija.cs = Akcija.cs
+		DodatnaUsluga.cs = DodatnaUsluga.cs
+		Namestaj.cs = Namestaj.cs
+		Prodaja.cs = Prodaja.cs
+		Project.cs = Project.cs
+		Salon.cs = Salon.cs
+		StavkaProdaje.cs = StavkaProdaje.cs
+		TipNamestaja.cs = TipNamestaja.cs
+		User.cs = User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3FF1156-1A85-493C-AA7F-0447EB8073FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{73EBE568-A21E-46F9-AE12-78B9B6D068C2}"
+	ProjectSection(SolutionItems) = preProject
+		GenericsSerializer.cs = GenericsSerializer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ul", "Ul", "{2B5437C3-B5D5-44A6-A1BA-913FCC679C0A}"
+	ProjectSection(SolutionItems) = preProject
+		PocetniProzor.xaml = PocetniProzor.xaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9220CCE-DE88-45A8-9E4F-8D9C897EA847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9220CCE-DE88-45A8-9E4F-8D9C897EA847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9220CCE-DE88-45A8-9E4F-8D9C897EA847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9220CCE-DE88-45A8-9E4F-8D9C897EA847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {396D4C96-9A0D-4A50-A412-2B3003D7CB7F}
+	EndGlobalSection
+EndGlobal
